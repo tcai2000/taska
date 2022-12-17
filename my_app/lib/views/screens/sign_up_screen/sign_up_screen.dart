@@ -3,8 +3,8 @@ import 'package:my_app/routes/routers_path.dart';
 import 'package:my_app/views/constants/constants_export.dart';
 import 'package:my_app/views/styled_components/styled_export.dart';
 
-class LoginScreen extends StatelessWidget {
-  const LoginScreen({super.key});
+class SignUpScreen extends StatelessWidget {
+  const SignUpScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -21,18 +21,17 @@ class LoginScreen extends StatelessWidget {
               Row(
                 children: [
                   InkWell(
-                    onTap: () {
-                      Navigator.pop(context);
-                    },
-                    child: const Icon(Icons.arrow_back, size: 28),
-                  )
+                      onTap: () {
+                        Navigator.pop(context);
+                      },
+                      child: Icon(Icons.arrow_back, size: 28))
                 ],
               ),
               const Spacer(flex: 2),
               const Align(
                 alignment: Alignment.topLeft,
                 child: Text(
-                  AppStrings.loginToYouAccount,
+                  AppStrings.createYourAccount,
                   style: TextStyle(
                     fontSize: 40,
                     fontWeight: FontWeight.w800,
@@ -59,28 +58,10 @@ class LoginScreen extends StatelessWidget {
               ),
               const SizedBox(height: 40),
               StyledButtonDefault(
-                text: AppStrings.signIn,
+                text: AppStrings.signUp,
                 colorText: AppColor.whiteColor,
                 colorBtn: AppColor.blueColor500,
-                onTap: () {
-                  Navigator.pushReplacementNamed(
-                      context, RoutersPath.mainRoute);
-                },
-              ),
-              const SizedBox(height: 20),
-              InkWell(
-                onTap: () {
-                  Navigator.pushReplacementNamed(
-                      context, RoutersPath.forgotPassRoute);
-                },
-                child: const Text(
-                  AppStrings.forgotThePass,
-                  style: TextStyle(
-                    fontSize: 14,
-                    fontWeight: FontWeight.w500,
-                    color: AppColor.blueColor500,
-                  ),
-                ),
+                onTap: () {},
               ),
               const Spacer(flex: 1),
               Padding(
@@ -130,7 +111,7 @@ class LoginScreen extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   const Text(
-                    AppStrings.doNotHaveAnAccount,
+                    AppStrings.haveAnAccount,
                     style: TextStyle(
                       fontSize: 14,
                       fontWeight: FontWeight.w300,
@@ -141,10 +122,10 @@ class LoginScreen extends StatelessWidget {
                   InkWell(
                     onTap: () {
                       Navigator.pushReplacementNamed(
-                          context, RoutersPath.signUpRoute);
+                          context, RoutersPath.loginRoute);
                     },
                     child: const Text(
-                      AppStrings.signUp,
+                      AppStrings.signIn,
                       style: TextStyle(
                         fontSize: 14,
                         fontWeight: FontWeight.w700,
