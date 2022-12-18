@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "fullName": "Trần Công Ái",
+        "userName": "tcai2000",
+        "imageUrl": "https://i.dummyjson.com/data/products/1/1.jpg",
+        "isView": false,
+        "listStory": [
+            "1", "2"
+        ]
+    },
+    {
+        "id": 2,
+        "fullName": "Hân Đỗ",
+        "userName": "tcai2000",
+        "imageUrl": "https://i.dummyjson.com/data/products/1/1.jpg",
+        "isView": false,
+        "listStory": [
+            "1", "2"
+        ]
+    },
+    {
+        "id": 3,
+        "fullName": "My Dung",
+        "userName": "tcai2000",
+        "imageUrl": "https://i.dummyjson.com/data/products/1/1.jpg",
+        "isView": false,
+        "listStory": [
+            "1", "2"
+        ]
+    },
+    {
+        "id": 4,
+        "fullName": "Tiên Kiều",
+        "userName": "tcai2000",
+        "imageUrl": "https://i.dummyjson.com/data/products/1/1.jpg",
+        "isView": false,
+        "listStory": [
+            "1", "2"
+        ]
+    },
+    {
+        "id": 5,
+        "fullName": "Anh Nguyen",
+        "userName": "anhnguyen.2hand",
+        "imageUrl": "https://i.dummyjson.com/data/products/1/1.jpg",
+        "isView": false,
+        "listStory": [
+            "1", "2"
+        ]
+    },
+    {
+        "id": 6,
+        "fullName": "Trần Công Ái",
+        "userName": "tcai2000.dih2",
+        "imageUrl": "https://i.dummyjson.com/data/products/1/1.jpg",
+        "isView": false,
+        "listStory": [
+            "1", "2"
+        ]
+    },
+    {
+        "id": 7,
+        "fullName": "Trần Công Ái",
+        "userName": "tcphdm.2000",
+        "imageUrl": "https://i.dummyjson.com/data/products/1/1.jpg",
+        "isView": false,
+        "listStory": [
+            "1", "2"
+        ]
+    },
+    {
+        "id": 8,
+        "fullName": "Trần Công Ái",
+        "userName": "tcai2.000388",
+        "imageUrl": "https://i.dummyjson.com/data/products/1/1.jpg",
+        "isView": false,
+        "listStory": [
+            "1", "2"
+        ]
+    }
+]

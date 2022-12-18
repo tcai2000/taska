@@ -1,0 +1,14 @@
+[
+    {
+        "id": "1",
+        "username": "joshua_I",
+        "imagePostList": [
+
+        ],
+        "description": "This is description",
+        "userFavoriteList": [
+            "1",
+            "2"
+        ]
+    }
+]

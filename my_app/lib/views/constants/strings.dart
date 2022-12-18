@@ -28,4 +28,8 @@ class AppStrings {
   static const rememberMe = "Remember me";
   static const orContinueWith = "or continue with";
   static const forgotThePass = "Forgot the password?";
+  static const myStory = "My story";
+  static const notification = "Notifications";
+  static const news = "New";
+  static const before = "Before";
 }

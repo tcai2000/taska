@@ -9,7 +9,7 @@ class MainScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return const Scaffold(
       bottomNavigationBar: BottomNavigationWidget(),
-      body: MainBodyWidget(),
+      body: SafeArea(child: MainBodyWidget()),
     );
   }
 }

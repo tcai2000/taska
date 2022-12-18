@@ -1,18 +1,14 @@
 import 'package:flutter/cupertino.dart';
-import 'package:flutter/src/widgets/container.dart';
-import 'package:flutter/src/widgets/framework.dart';
+import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
+import 'widgets/search_exports.dart';
 
 class SearchScreen extends StatelessWidget {
   const SearchScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      child: Center(
-        child: Text(
-          "Search Screen"
-        ),
-      ),
+    return Column(
+      children: [AppBarSearch(), Expanded(child: SearchStaggeredGrid())],
     );
   }
 }

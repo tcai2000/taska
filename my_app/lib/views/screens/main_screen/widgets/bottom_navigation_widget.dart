@@ -46,8 +46,9 @@ class BottomNavigationWidget extends StatelessWidget {
                   BlocProvider.of<BottomNavbarCubit>(context)
                       .getBottomNavbarItem(BottomNavbarItem.add);
                 },
-                height: 40,
-                icon: AppIcons.addIcon,
+                icon: state.index == 2
+                    ? AppIcons.reelEnableIcon
+                    : AppIcons.reelIcon,
               ),
               bottomNavbarItem(
                 handleTap: () {
@@ -78,7 +79,7 @@ class BottomNavigationWidget extends StatelessWidget {
 bottomNavbarItem({
   required String icon,
   required Function handleTap,
-  double? height = 24,
+  double? height = 30,
 }) {
   return InkWell(
     onTap: () => handleTap(),
