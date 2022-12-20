@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:my_app/models/story_model.dart';
 import 'package:my_app/views/constants/colors.dart';
 
 class CircleAvatarComponent extends StatelessWidget {
@@ -7,9 +6,11 @@ class CircleAvatarComponent extends StatelessWidget {
     Key? key,
     required this.size,
     required this.imageUrl,
+    this.isStory = false,
   }) : super(key: key);
   final double size;
   final String imageUrl;
+  final bool isStory;
 
   @override
   Widget build(BuildContext context) {
@@ -18,7 +19,7 @@ class CircleAvatarComponent extends StatelessWidget {
       width: size,
       padding: const EdgeInsets.all(2),
       decoration: BoxDecoration(
-        gradient: AppColor.linearGradient,
+        gradient: isStory ? null : AppColor.linearGradient,
         color: AppColor.greyColor100,
         borderRadius: BorderRadius.circular(50),
       ),

@@ -32,4 +32,9 @@ class AppIcons {
   // Search Icons
   static const scanQRIcon = "assets/icons/search/scan_qr_ic.svg";
   static const galleryIcon = "assets/icons/search/gallery_ic.svg";
+
+  // Profile Icons
+
+  static const gridIcon = "assets/icons/profile/grid_ic.svg";
+  static const tagsIcon = "assets/icons/profile/tags_ic.svg";
 }

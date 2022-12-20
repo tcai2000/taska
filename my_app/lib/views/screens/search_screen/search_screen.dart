@@ -1,5 +1,4 @@
 import 'package:flutter/cupertino.dart';
-import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
 import 'widgets/search_exports.dart';
 
 class SearchScreen extends StatelessWidget {
@@ -8,7 +7,7 @@ class SearchScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Column(
-      children: [AppBarSearch(), Expanded(child: SearchStaggeredGrid())],
+      children: const [AppBarSearch(), Expanded(child: SearchStaggeredGrid())],
     );
   }
 }
